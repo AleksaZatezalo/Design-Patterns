@@ -3,6 +3,7 @@
 This Repository contains all the design patterns (plus others) as specified in the legendary book Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 
 The patterns will be coded in java and placed in one of three folders based on there classification: creational, structural, and behavioral.
+Adding your own design patterns, or ones that exist but are not in the book is highly encouraged. 
 
 ## Contributing
 Before contributing read through the contribution guidlines found the CONTRIBUTING file. Make sure to abide by the coding styles in this document and include an associated unittest with each Pull Request.
