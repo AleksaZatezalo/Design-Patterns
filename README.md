@@ -40,7 +40,7 @@ All classes you choose to include in a PR must include a description, your name,
 */
 ```
 
-### Code Structure
+## Code Structure
 As mentioned in the description above the folder structure will contain a main folder and three sub folders for each category of class. We will also have a test foldermade up of unit-tests, and
 
 ```
@@ -58,7 +58,7 @@ As mentioned in the description above the folder structure will contain a main f
 ```
 
 
-### Testing
+## Testing
 A test package exists under the folder test, and contains a serise of unit tests. Before commiting changes make sure to run the test bench and make sure all corrisponding cases pass. For new functionality new test cases must be added and documented.
 
 To run tests simply compile the CLASS.java file you look to test along with the TEST.java file that contains your tests and run them with the following commands:
