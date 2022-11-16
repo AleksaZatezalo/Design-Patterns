@@ -12,6 +12,7 @@ A few key points when contributing to this repo are as follows:
 
     Use tabs over spaces.
     Each function must contain a doc strings formated as such:
+    
     /**
     * DESCRIPTION
     *
@@ -21,6 +22,7 @@ A few key points when contributing to this repo are as follows:
     * ...
     * PARAM N: DESCRIPTION 
     */
+    
     Do not add spaces between docstring and first function line.
     Do not go over 200 characters per line.
     When closing multiline items under brackets('()', '[]', ... etc) put the closing bracket on it's own line.
