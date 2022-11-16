@@ -9,11 +9,10 @@ Before contributing read through the contribution guidlines found the CONTRIBUTI
 
 ### Code Style
 A few key points when contributing to this repo are as follows:
-
-    Use tabs over spaces.
-    Each function must contain a doc strings formated as such:
+1. Use tabs over spaces.
+2. Each function must contain a doc strings formated as such:
     
-    ```java
+    ```jdk
     /**
     * DESCRIPTION
     *
@@ -24,14 +23,13 @@ A few key points when contributing to this repo are as follows:
     * PARAM N: DESCRIPTION 
     */
     ```
-    
-    Do not add spaces between docstring and first function line.
-    Do not go over 200 characters per line.
-    When closing multiline items under brackets('()', '[]', ... etc) put the closing bracket on it's own line.
+3. Do not add spaces between docstring and first function line.
+4. Do not go over 200 characters per line.
+5. When closing multiline items under brackets('()', '[]', ... etc) put the closing bracket on it's own line.
 
-All files you choose to include in a PR must include a description, your name, date of creation, and a version number at the beggining of the class as follows:
+All classes you choose to include in a PR must include a description, your name, date of creation, and a version number at the beggining of the class as follows:
 
-```java
+```jdk
 /**
 * The HelloWorld program implements an application that
 * simply displays "Hello World!" to the standard output.
