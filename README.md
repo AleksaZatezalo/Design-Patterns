@@ -13,6 +13,7 @@ A few key points when contributing to this repo are as follows:
     Use tabs over spaces.
     Each function must contain a doc strings formated as such:
     
+    ```java
     /**
     * DESCRIPTION
     *
@@ -22,6 +23,7 @@ A few key points when contributing to this repo are as follows:
     * ...
     * PARAM N: DESCRIPTION 
     */
+    ```
     
     Do not add spaces between docstring and first function line.
     Do not go over 200 characters per line.
@@ -29,6 +31,7 @@ A few key points when contributing to this repo are as follows:
 
 All files you choose to include in a PR must include a description, your name, date of creation, and a version number at the beggining of the class as follows:
 
+```java
 /**
 * The HelloWorld program implements an application that
 * simply displays "Hello World!" to the standard output.
@@ -37,6 +40,7 @@ All files you choose to include in a PR must include a description, your name, d
 * @version 1.0
 * @since   2014-03-31 
 */
+```
 
 ### Code Structure
 ### Testing
