@@ -2,10 +2,10 @@
 
 This Repository contains all the design patterns (plus others) as specified in the legendary book Design Patterns by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 
-The patterns will be coded in java and placed in one of three folders based on there classification: Creational, Structural, and Behavioral.
+The patterns will be coded in java and placed in one of three folders based on there classification: creational, structural, and behavioral.
 
 ## Contributing
-Before contributing read through the contribution guidlines found the CONTRIBUTING file.
+Before contributing read through the contribution guidlines found the CONTRIBUTING file. Make sure to abide by the coding styles in this document and include an associated unittest with each Pull Request.
 
 ### Code Style
 A few key points when contributing to this repo are as follows:
@@ -41,4 +41,21 @@ All classes you choose to include in a PR must include a description, your name,
 ```
 
 ### Code Structure
+As mentioned in the description above the folder structure will contain a main folder and three sub folders for each category of class. We will also have a test foldermade up of unit-tests, and
+
+```
+.
+├── src                     # Source files
+    ├── creational          # Creational Classes
+    ├── structural          # Structural Classes
+    ├── behavioral          # Behavioral files
+├── test                    # Automated Testcases for the package
+├── CODE_OF_CONDUCT         # An md file containing code of conduct
+├── CONTRIBUTING            # Contributing Guidlins
+├── LICENSE                 # MIT License
+├── README.md               # An md file
+└── setup.py                # Instalation
+```
+
+
 ### Testing
