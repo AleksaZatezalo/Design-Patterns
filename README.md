@@ -27,6 +27,7 @@ A few key points when contributing to this repo are as follows:
 3. Do not add spaces between docstring and first function line.
 4. Do not go over 200 characters per line.
 5. When closing multiline items under brackets('()', '[]', ... etc) put the closing bracket on it's own line.
+6. Files should be named using camelCase.
 
 All classes you choose to include in a PR must include a description, your name, date of creation, and a version number at the beggining of the class as follows:
 
