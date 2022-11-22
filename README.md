@@ -62,4 +62,3 @@ As mentioned in the description above the folder structure will contain a main f
 
 ## Testing
 In order to test your design pattern implement it in the test folder and see if it runs. Untested code will not be merged by product owners. Every PR must have a coresponding test.
-```
